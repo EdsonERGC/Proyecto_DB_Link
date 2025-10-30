@@ -32,6 +32,26 @@ def ConectionOracle():
             conn.close()
 
 
-#comentario
 
+
+
+def ConectionMYSQL():
+    try:
+        connection = mysql.connector.connect(
+            host="192.168.184.130",
+            user="admin",
+            password="12345",
+            database="Proyecto1",
+            port=3306
+        )
+
+        if connection.is_connected():
+            return "Conexión exitosa a MySQL"
+
+    except Error as e:
+        return f"Error al conectar a MySQL: {e}"
+
+    finally:
+        if 'connection' in locals() and connection.is_connected():
+            connection.close()
 
