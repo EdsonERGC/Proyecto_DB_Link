@@ -55,3 +55,22 @@ def ConectionMYSQL():
         if 'connection' in locals() and connection.is_connected():
             connection.close()
 
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+
+@app.route('/test_oracle')
+def test_oracle():
+    result = ConectionOracle()
+    return jsonify({"message": result})
+
+
+@app.route('/test_mysql')
+def test_mysql():
+    result = ConectionMYSQL()
+    return jsonify({"message": result})
+
+
+if _name_ == '_main_':
+    app.run(host='0.0.0.0', port=5000, debug=True)
