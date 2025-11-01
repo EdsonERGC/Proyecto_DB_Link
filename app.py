@@ -204,7 +204,7 @@ def upsert_into_mysql(rows):
         raise e
     finally:
         cur.close(); conn.close()
----------------------------------------------CINTIA----------------------------------------------
+
 
 # ========= Inserciones unitarias =========
 def _normalize_record_with_random_id_for(target: str, data: dict) -> dict:
@@ -435,3 +435,4 @@ def api_delete_persona_mysql(persona_id: str):
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
