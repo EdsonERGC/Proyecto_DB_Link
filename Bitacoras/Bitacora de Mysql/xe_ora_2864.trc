@@ -1,0 +1,52 @@
+Dump file c:\oraclexe213_win64\homes\oradb21home1\rdbms\trace\xe_ora_2864.trc
+Thu Sep 18 02:19:59 2025
+ORACLE V21.0.0.0.0 - Production vsnsta=0
+vsnsql=19 vsnxtr=3
+
+*** 2025-09-18T02:19:59.108218-06:00
+
+Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
+Version 21.3.0.0.0
+Build label:    RDBMS_21.3.0.0.0_WINDOWS.X64_210927
+Windows NT Version V10.0  OS Build 14393
+
+ORACLE_HOME = C:\OracleXE213_Win64\dbhomeXE
+
+Node name           : WIN-B0DC05T4LOQ
+
+CPU                 : 2 - type 86642 physical cores
+
+Process Affinity    : 0x0000000000000000
+
+Memory (Avail/Total): Ph:3111M/4707M, Ph+PgF:4682M/6243M 
+
+VM name             : VMWare Version (6)
+
+Storage:	?
+
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 0
+
+Windows thread id: 2864, image: 
+
+
+
+*** 2025-09-18T02:19:59.108218-06:00
+
+2025-09-18 02:19:59.108 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2025-09-18 02:19:59.108 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+ value for _ksi_trace_bucket SHARED
+2025-09-18 02:19:59.191 : kjbrpdnr: startup nress=0
+2025-09-18 02:19:59.193 : kjblpdnl: startup nslocks=0
+2025-09-18 02:19:59.186 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2025-09-18 02:19:59.186 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2025-09-18 02:19:59.186 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2025-09-18 02:19:59.186 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+kgfmIsAppliance=0 (due to init)
+2025-09-18 02:19:59.233 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2025-09-18 02:19:59.233 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2
+2025-09-18 02:19:59.233 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\olr cannot be opened. error 2
+2025-09-18 02:19:59.233 : [ default][ default] ut_read_reg:2:ocr registry key SOFTWARE\Oracle\ocr cannot be opened. error 2

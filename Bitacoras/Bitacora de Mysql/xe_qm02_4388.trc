@@ -1,0 +1,12 @@
+Dump file c:\oraclexe213_win64\homes\oradb21home1\rdbms\trace\xe_qm02_4388.trc
+Thu Sep 18 22:51:43 2025
+ORACLE V21.0.0.0.0 - Production vsnsta=0
+vsnsql=19 vsnxtr=3
+Checking for OS Locks before suspending 3132 thread, as thread is in Kernel
+
+Safe Suspend Successful
+
+Checking for OS Locks before suspending 3132 thread, as thread is in Kernel
+
+Checking for OS Locks before suspending 3132 thread, as thread is in Kernel
+
